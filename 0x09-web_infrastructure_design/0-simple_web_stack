@@ -1,0 +1,33 @@
+https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&edit=_blank&layers=1&nav=1&title=diagram%20zero.drawio#R5Vtbb6M4FP41kXYfirhfHtumF606o2paafYtcsBJrAHMGOfS%2Fvq1wQSCnYbVAk03qpQmJ77g8%2Fl85%2FOBTKzbZPdAQLb6hiMYT0w92k2s6cQ0Pd9kr9zwVhoM17BKy5KgSNhqwwt6h8KoC%2BsaRTA%2FaEgxjinKDo0hTlMY0gMbIARvD5stcHw4awaWUDK8hCCWrT9RRFel1Xf02v4I0XJVzWzo4psEVI2FIV%2BBCG8bJutuYt0SjGn5Ltndwpg7r%2FJL2e%2F%2ByLf7CyMwpV06fPvr7x9PKLtKFvb108ur%2BzD7Qa8EPBsQr8WCxcXSt8oD%2BS9IQ74UfWLdgDwrvbxAO8gGvskwSikkdxt2FdzVBrPtV8p7RCBf8ZbFhxVN4qoRJfgXvMUxJsyS4pRNdxODOYyfcY4owikzh5APzr7YQEIRQ%2BWp1WCOKcVJo8F1jJb8C4ozfrni036cBYrjas6Jaem64fvT8pIzvt5kt%2BT7WAPvawK1ECfZmneUXC28z2eFu4ZJuP4B4gRS8saaiG8tsQtEHFwFlWFb7ypPmFaNDeWKcAFiHy%2F3I9dQszcC7X%2BBvCUhH8aIr6%2BNP1sgPYSOwBy9g3nRoNgUa8oQKSLXUDm9jU2Cooh3LjdPsTDnZuJMW%2FiIPaHcKASv02i%2FrYbAx5XxcRT4VP16x8c9HZnNaDoact3RkGKgoE%2Bz%2FM%2BHfROTFexuBZrN3qe4JoceYDB053Sc7Dm2CYRpac5AUATnCYWuuRUYNh9%2BEaPsUVzE4LDoXWEZKj4MOXVtt1ttgfEcEM7cHYisOyBtypOZq0WCStZSsFsP4AQdqMswxuQuQ04uvlb8XQwohtmKGN%2BTUXFHBcU7TWOyvIMEsek5DlM2B1Pd8Lk2fQjbcR7MMxCidPnKJdrUYgaUFCq8%2Bj9FyZItMUZz9gpCijZwFiHCrgxzP9wXijOFdBbGeB1p%2BWbZD2ayCDA7igBjsNxj%2BF8j%2BZT4lKI8xYR7q%2B8kZNpteAJVEpLhcQcLqS%2BiDJrg5Hg9CDjuuYFTxe5H4Jw8Vn58%2BG1gqz5%2FKhOOBDZDJEYpa1aVMHQF0CGiBO20KM1nOSSbomMfuJmu5rVSlaErsPPciuOa6AXmYMy3X0uN3%2FT7C8evXP7FKIk27Rl6BVgDnmBMKVFF0hnynlcRn6kPQHKS1DY9BckpoKjEV%2F9QyFL7XKAY63Aqo2J0PJwagwWILaHy%2BPr6zCwE%2Fl7DvEuV7f%2FBXqbfrhw4HcEZjr2c4%2BDkGU5zeEHotENHl1PLuLUDs0Ph82scU7dwLqRaf0dU22gD5svh5DuarSK7Wun1j5pcXGDL34u1P74vUbr782LiymqznqGrcpI5amCdbyVhUNFmS%2FLA%2BXTR9kXqBgOKNhmVrjd6BhNtVoeCwUXeDE%2FyEECt6JURlEMNZFnMxufTzpqn8f%2B0I1wptSkq5r5iQwSWpptD7Qm5CHFdL%2F7yihGOJxUjPj2xWR2qESdD5mQpTxaOp7xehNTN3b2pol%2FxfEkEZ6wLPMIdfSiRIDgEzFNElWNouqK45wyGmHw8Ppf85%2BwToKU5wWSUGxuSqPc9SzPlg5gqqvYpsn%2BQzlcvTka%2BuWG3bwz6riwhR0ZHlpCcTebggqoXVrt64Snu16oUw2CpyO4gIc8tZgYiNUnOfX7M2LKYO3t0BmI0t31TSfV4ysjofFkZl%2F%2BOZxGgoCDffuDR28ymeKariqdRJJst32dK3tjCLybZuLqvtYp6nuLoM%2BozwnYHHQ3T6Lokm2kYgzxHYeE3QKhsbj7jffCAdbXvFzHciW7HfQqjg59UyB494a7KRmAMeFH9YHCVD8UMz3y3NERb%2B4kUr%2F2oCeNWEkLRrYZCGkmKRj9ojcTcuYRUGqkAdb9wFc7sY%2F0LkLJ5%2FTsa6%2B4f
+
+The pictorial reference to this writing is located in the link above..
+
+The Server
+- The server in the diagram is located in a datacenter (a specially designed structure to hold thousands of machines).
+- It could either be a physical or virtual (i.e an instance of a physical server).
+- The server (physical or virtual) also runs a special operating system that helps it perform its services to the end users.
+
+One Web Server
+- An NGINX web server is installed in the server for serving "static" web content (i.e hard-coded content that needs no changes when delivered to the user) over the protocol, HTTP.
+
+One Application Server
+- This application server's fundamental purpose is to process web server requests and generate dynamic content from a business logic and application database in the backend.
+
+One Database
+- The primary role of the database is to store application data.
+
+Domain Name / Domain Name System (DNS)
+- The DNS helps translate the domain name record to an IP address
+- The hosted website by the infrastructure; www.foobar.com is an A record because it resolves to an IP address(IPV4), 8.8.8.8
+
+
+Problems With This Infrastructure
+- Server is a Single Point of Failure (SPOF)
+This infrastructure design has no redundant server as a backup if the single server present failed. This presents a "single point of failure" as the application would crash due to the malfunctioning of the server.
+- Downtime In Maintenance
+Rebooting of the server after maintenance practice e.g deploying new code, would cause a downtime as the sole server would be unavailable for that period of time to carry out its functionalities for the clients.
+- Unscalability
+This infrastructure is unscalable due to its single server, web server, application server and absence of a load balancer to handle multiple requests to it.
+
+Protocol
+The server here uses the TCP/IP protocol to communicate with the computer of the user requesting the website.
