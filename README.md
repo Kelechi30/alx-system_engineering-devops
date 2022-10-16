@@ -1,1 +1,1 @@
-shell basics
+connection via ssh
