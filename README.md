@@ -1,1 +1,1 @@
-connection via ssh
+web stack debugging 2
